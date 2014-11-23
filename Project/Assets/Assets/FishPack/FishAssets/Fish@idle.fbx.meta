@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 017f6fd474e848b4eabf7110fbf1827b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: TailBottomEnd
+    100002: TailBottom
+    100004: TailTopEnd
+    100006: TailTop
+    100008: Tail1End
+    100010: Tail1
+    100012: Tail
+    100014: Spine2
+    100016: Spine1
+    100018: Spine
+    100020: Hips
+    100022: HeadEnd
+    100024: Head
+    100026: Pelvic1End
+    100028: Pelvic1B
+    100030: Pelvic1A
+    100032: PectoralRight
+    100034: PectoralLeftEnd
+    100036: PectoralLeft
+    100038: Pelvic2End
+    100040: Pelvic2B
+    100042: Pelvic2A
+    100044: Dorsal2End
+    100046: Dorsal2
+    100048: Dorsal3End
+    100050: Dorsal3
+    100052: //RootNode
+    100054: Dorsal1End
+    100056: Dorsal1
+    100058: PectoralRightEnd
+    400000: TailBottomEnd
+    400002: TailBottom
+    400004: TailTopEnd
+    400006: TailTop
+    400008: Tail1End
+    400010: Tail1
+    400012: Tail
+    400014: Spine2
+    400016: Spine1
+    400018: Spine
+    400020: Hips
+    400022: HeadEnd
+    400024: Head
+    400026: Pelvic1End
+    400028: Pelvic1B
+    400030: Pelvic1A
+    400032: PectoralRight
+    400034: PectoralLeftEnd
+    400036: PectoralLeft
+    400038: Pelvic2End
+    400040: Pelvic2B
+    400042: Pelvic2A
+    400044: Dorsal2End
+    400046: Dorsal2
+    400048: Dorsal3End
+    400050: Dorsal3
+    400052: //RootNode
+    400054: Dorsal1End
+    400056: Dorsal1
+    400058: PectoralRightEnd
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
