@@ -3,7 +3,7 @@ using System.Collections;
 
 public class InitiallScenes : MonoBehaviour {
 
-    public AssetManager CurrentAssetManager;
+    //public AssetManager CurrentAssetManager;
 	// Use this for initialization
 	void Start () {
 
@@ -15,8 +15,8 @@ public class InitiallScenes : MonoBehaviour {
         //StartCoroutine(CurrentAssetManager.LoadGameObjectAssets(assetPath));
         //StartCoroutine(CurrentAssetManager.LoadGameObjectAssets(assetPathAni));
 
-        string assetPath = "file://" + Application.streamingAssetsPath + "/" + "TwoFish.unity3d";
-        StartCoroutine(CurrentAssetManager.LoadGameObjects(assetPath));
+        string assetPath = "file://" + Application.streamingAssetsPath + "/" + "myNewScene.unity3d";
+        StartCoroutine(AssetManager.LoadGameScene(assetPath, "LoadedScene_A"));
 
 
 	}

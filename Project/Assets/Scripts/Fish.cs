@@ -13,7 +13,7 @@ public class Fish : MonoBehaviour {
     {
         while (true)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(4);
             {
                 int index = Random.Range(0,5);
                 animation.CrossFade(_animationNames[index]);
@@ -23,5 +23,6 @@ public class Fish : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+
 	}
 }

@@ -16,6 +16,7 @@ public class CreateAssetBundle
             Selection.objects = selection;
         }
     }
+
     [MenuItem("Assets/Build AssetBundle From Selection - No dependency tracking")]
     static void ExportResourceNoTrack()
     {
@@ -27,21 +28,19 @@ public class CreateAssetBundle
             BuildPipeline.BuildAssetBundle(Selection.activeObject, Selection.objects, path);
         }
     }
-    [MenuItem("Assets/MakeStreamingSceneAssets")]
-    static void CreateSceneALL()
-    {
-        //清空一下缓存
-        Caching.CleanCache();
 
+
+    [MenuItem("Assets/Build AssetBundle FromScene")]
+    static void ExportResourceScene()
+    {
+        // Bring up save panel
         string path = EditorUtility.SaveFilePanel("Save Resource", "", "New Resource", "unity3d");
         if (path.Length != 0)
         {
-            string[] levels = { "Assets/Level.unity" };
-            //打包场景
-            BuildPipeline.BuildPlayer(levels, path, BuildTarget.WebPlayer, BuildOptions.BuildAdditionalStreamedScenes);
-            AssetDatabase.Refresh();
+            string  [] levels = {EditorApplication.currentScene};
+		    BuildPipeline.BuildStreamedSceneAssetBundle (levels, path, BuildTarget.StandaloneWindows);
         }
-
     }
+
 
 }

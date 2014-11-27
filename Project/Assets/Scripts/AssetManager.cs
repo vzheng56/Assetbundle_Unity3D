@@ -49,15 +49,14 @@ public class AssetManager : MonoBehaviour {
         assetBunlde.assetBundle.Unload(false);
     }
 
-    public IEnumerator LoadGameScene(string path)
+    public static IEnumerator LoadGameScene(string path,string sceneName)
     {
         //1. 加载 过程
         WWW assetBunlde = new WWW(path);
         yield return assetBunlde; // 完成 加载后再执行下一步 所以使用 yield 
         //2. 从资源包里面Load 资源
-
         AssetBundle sceneBunlde = assetBunlde.assetBundle;
-        Application.LoadLevel("LoadedScene");
+        Application.LoadLevel(sceneName);
     }
 
 }
